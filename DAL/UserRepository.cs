@@ -77,7 +77,13 @@ namespace DAL
                                 + "MERGE (n)-[friends:FRIENDS_WITH]-(p) "
                                 + "RETURN friends";
                 var result = _session.ExecuteWriteAsync(tx => tx.RunAsync(query, new { responderId = responderId, senderId = senderId }).Result.ConsumeAsync()).Result;
-                return true;
+                if (result.Counters.RelationshipsCreated  == 1 && result.Counters.RelationshipsDeleted == 1)
+                {
+                    return true;
+                } else
+                {
+                    return false;
+                }
             } 
             catch (Exception ex)
             {
