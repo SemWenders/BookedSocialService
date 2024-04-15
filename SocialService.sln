@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialServiceAPI", "SocialServiceAPI\SocialServiceAPI.csproj", "{7C5A71A2-BC61-4F37-9484-6562F2AEDBBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{A776D5AD-CC18-43E3-85DE-B7B94CB5FCF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{3C2DE254-771A-4F94-B1F1-6ED12FB98286}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5A71A2-BC61-4F37-9484-6562F2AEDBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5A71A2-BC61-4F37-9484-6562F2AEDBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5A71A2-BC61-4F37-9484-6562F2AEDBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5A71A2-BC61-4F37-9484-6562F2AEDBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A776D5AD-CC18-43E3-85DE-B7B94CB5FCF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A776D5AD-CC18-43E3-85DE-B7B94CB5FCF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A776D5AD-CC18-43E3-85DE-B7B94CB5FCF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A776D5AD-CC18-43E3-85DE-B7B94CB5FCF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2DE254-771A-4F94-B1F1-6ED12FB98286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2DE254-771A-4F94-B1F1-6ED12FB98286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2DE254-771A-4F94-B1F1-6ED12FB98286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2DE254-771A-4F94-B1F1-6ED12FB98286}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF0C53DA-A293-4FEC-98C4-D34267A6F75F}
+	EndGlobalSection
+EndGlobal
