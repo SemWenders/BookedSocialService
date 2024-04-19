@@ -14,11 +14,9 @@ namespace UserLogicTest
         public UserLogicTests()
         {
             var userRepoMock = new Mock<IUserRepository>();
+            friends = new List<string>();            
             userRepoMock.Setup(m => m.AcceptFriendRequest(It.IsAny<string>(), It.IsAny<string>())).Callback<string, string>((s, p) => friends.Add(s)).Returns(true);
             userLogic = new UserLogic(userRepoMock.Object);
-            friends = new List<string>();
-            Debug.WriteLine("constructor executed");
-            
         }
 
         [Fact]
