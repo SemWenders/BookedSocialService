@@ -31,7 +31,7 @@ namespace SocialServiceAPI.Controllers
             }
         }
 
-        [HttpPost("SendFriendRequest/{responderId}/{senderId}/{accept}")]
+        [HttpPost("RespondFriendRequest/{responderId}/{senderId}/{accept}")]
         public ActionResult RespondToFriendRequest(string responderId, string senderId, bool accept)
         {
             if (_userLogic.RespondToFriendRequest(responderId, senderId, accept))
