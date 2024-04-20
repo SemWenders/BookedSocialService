@@ -72,6 +72,6 @@ jobs:
       - name: Run
         uses: grafana/k6-action@v0.3.1
         with:
-          filename: LoadTest/scripts/GetBookInfo.js
+          filename: LoadTest/scripts/GetFriends.js
         env:
           HOST_URL: "http://socialservice:8080"
