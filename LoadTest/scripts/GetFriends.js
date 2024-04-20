@@ -34,6 +34,7 @@ export function getFriends() {
   const response = http.get(`${host_url}/Social/GetFriends/1`, {
     headers: { Accepts: "application/json" },
   });
+  console.log(response);
   check(response, { "status is 200": (r) => r.status === 200 });
   sleep(0.3);
 }
