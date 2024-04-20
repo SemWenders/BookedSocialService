@@ -58,8 +58,9 @@ jobs:
         ports:
           - 8080:8080
           - 8081:8081
+          - 44325:44325
         env:
-          ApplicationSettings:Neo4jConnection: mongodb://mongodb:27017
+          ApplicationSettings:Neo4jConnection: neo4j://neo4j:7687
       neo4j:
         image: semwenders/neo4j
         ports:
