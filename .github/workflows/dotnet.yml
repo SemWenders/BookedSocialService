@@ -61,7 +61,7 @@ jobs:
         env:
           ApplicationSettings:Neo4jConnection: mongodb://mongodb:27017
       neo4j:
-        image: ./Dockerfile
+        image: semwenders/neo4j
         ports:
           - 7687:7687
 
