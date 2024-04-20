@@ -57,6 +57,7 @@ jobs:
         image: semwenders/bookedsocialservice:latest
         ports:
           - 8080:8080
+          - 5166:5166
           - 8081:8081
           - 44325:44325
         env:
@@ -75,4 +76,4 @@ jobs:
         with:
           filename: LoadTest/scripts/GetFriends.js
         env:
-          HOST_URL: "http://socialservice:8080"
+          HOST_URL: "http://socialservice:5166"
