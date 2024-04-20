@@ -53,7 +53,7 @@ jobs:
     needs: docker
 
     services:
-      bookservice:
+      socialservice:
         image: semwenders/bookedsocialservice:latest
         ports:
           - 8080:8080
