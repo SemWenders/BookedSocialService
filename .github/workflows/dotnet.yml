@@ -62,6 +62,8 @@ jobs:
           - 44325:44325
         env:
           ApplicationSettings:Neo4jConnection: neo4j://neo4j:7687
+          ApplicationSettings:Neo4jUser: neo4j
+          ApplicationSettings:Neo4jPassword: password
       neo4j:
         image: semwenders/neo4j
         ports:
