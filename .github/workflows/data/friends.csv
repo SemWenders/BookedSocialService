@@ -1,3 +1,3 @@
-:STARTED_ID, :ENDED_IN, :TYPE
-1, 2, FRIENDS_WITH
-1, 3, FRIENDS_WITH
+friend1,friend2
+1,2
+1,3
