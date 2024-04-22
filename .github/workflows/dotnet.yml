@@ -76,4 +76,4 @@ jobs:
         with:
           filename: LoadTest/scripts/GetFriends.js
         env:
-          HOST_URL: "http://socialservice:5166"
+          HOST_URL: "http://socialservice:8080"
